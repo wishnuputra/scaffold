@@ -1,0 +1,14 @@
+------------ Initializing Git Folder ------------
+git config --global user.name "Your Name"
+
+--------- Setting Up Virtual Environment ---------
+python3 -m venv ~/.scaffold
+source ~/.scaffold/bin/activate
+which python
+which pip
+------------------------------------------------
+
+git status
+git add .
+git commit -m "your message"
+git remote -v
