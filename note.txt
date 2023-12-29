@@ -12,4 +12,9 @@ which pip
 git status
 git add .
 git commit -m "your message"
+
 git remote -v
+git config --list or git config -l
+git config user.name
+git config user.email
+git commit --amend --reset-author
