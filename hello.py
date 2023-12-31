@@ -1,7 +1,7 @@
 def add(x, y):
     return x + y
 
-var = 
+var = 77
 
 a = 3
 b = 9
