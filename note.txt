@@ -1,4 +1,7 @@
 ------------ Initializing Git Folder ------------
+1. Generate SSH key : ssh-keygen -t rsa
+2. Print SSH key : cat /home/ec2-user/.ssh/id_rsa.pub
+3. Go to Github -> Profile -> Settings -> SSH and GPG keys -> New SSH Key -> Paste the SSH Key
 git config --global user.name "Your Name"
 git config --global user.email you@example.com
 
@@ -18,3 +21,8 @@ git config --list or git config -l
 git config user.name
 git config user.email
 git commit --amend --reset-author
+
+---------- Bash Command ----------
+ls
+pwd
+touch hello.py
