@@ -1,3 +1,10 @@
+--------- Setting Up Virtual Environment ---------
+python3 -m venv ~/.scaffold
+source ~/.scaffold/bin/activate
+which python
+which pip
+
+
 ------------ Initializing Git Folder ------------
 1. Generate SSH key : ssh-keygen -t rsa
 2. Print SSH key : cat /home/ec2-user/.ssh/id_rsa.pub
@@ -6,13 +13,8 @@
 git config --global user.name "Your Name"
 git config --global user.email you@example.com
 
---------- Setting Up Virtual Environment ---------
-python3 -m venv ~/.scaffold
-source ~/.scaffold/bin/activate
-which python
-which pip
-------------------------------------------------
 
+--------- Git Cheat Sheet ------------------------
 git status
 git add .
 git commit -m "your message"
