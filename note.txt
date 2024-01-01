@@ -2,7 +2,7 @@
 1. Generate SSH key : ssh-keygen -t rsa
 2. Print SSH key : cat /home/ec2-user/.ssh/id_rsa.pub
 3. Go to Github -> Profile -> Settings -> SSH and GPG keys -> New SSH Key -> Paste the SSH Key
-4. Start git clone. If failed to auntenthicate use : ssh-keyscan github.com >> ~/.ssh/known_hosts
+4. Start git clone. If failed to auntenthicate click yes or use : ssh-keyscan github.com >> ~/.ssh/known_hosts
 git config --global user.name "Your Name"
 git config --global user.email you@example.com
 
@@ -26,4 +26,5 @@ git commit --amend --reset-author
 ---------- Bash Command ----------
 ls
 pwd
+mv file.txt folder/
 touch hello.py
