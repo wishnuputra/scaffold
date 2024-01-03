@@ -4,6 +4,8 @@ source ~/.scaffold/bin/activate
 which python
 which pip
 
+virtualenv ~/.gcpcloud
+which virtualenv
 
 ------------ Initializing Git Folder ------------
 1. Generate SSH key : ssh-keygen -t rsa
