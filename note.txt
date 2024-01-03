@@ -6,6 +6,7 @@ which pip
 
 virtualenv ~/.gcpcloud
 which virtualenv
+gcloud --help
 
 ------------ Initializing Git Folder ------------
 1. Generate SSH key : ssh-keygen -t rsa
